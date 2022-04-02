@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>70</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Stock_item
+--
+stock_id varchar(100)
+--
+total_food varchar(100)
+--
+total_special_iteam varchar(100)
+--
+availabe_food int
+--
+available_special_item int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>290</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>stuff_info
+--
+stuff_name varchar(100)
+--
+location varchar(100)
+--
+duty_hrs varchar(100)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>70</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Food_item
+--
+food_name varchar(100)
+--
+Quantity int
+--
+price int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>70</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Resturant_details
+--
+r_id varchar(100)
+--
+r_name varchar(100)
+--
+location varchar(100)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>270</y>
+      <w>180</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Special_item
+--
+item_name varchar(50)
+--
+qty int
+--
+price int
+--
+item_details varchar(100)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>120</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>130</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>220</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>340</y>
+      <w>140</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
